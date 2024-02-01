@@ -11,10 +11,12 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
+        <li>MongoDb</li>
         <li>React</li>
+        <li>Next Js</li>
+        <li>JavaScript</li>
+        <li>Tailwind</li>
+        <li>AWS</li>
       </ul>
     ),
   },
@@ -23,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>12Th from HBSC</li>
+        <li>BCA From Chandigarh University</li>
       </ul>
     ),
   },
@@ -51,7 +53,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white py-24 min-h-screen " id="about">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         About Me
       </h2>

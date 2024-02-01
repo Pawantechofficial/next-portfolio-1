@@ -34,7 +34,9 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-600 to-primary-400">
+            PAWAN
+          </span>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

@@ -36,7 +36,7 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "App Developer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -46,9 +46,11 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          <p className="text-[#ADB7BE] text-base text-left sm:text-lg mb-6 lg:text-xl">
+            Hello there! I'm Pawan, a passionate and innovative Full Stack
+            Developer with a knack for turning ideas into high-quality,
+            user-friendly software. I thrive on challenges and love diving into
+            the world of coding to create meaningful and impactful solutions.
           </p>
           <div>
             <Link href="#contact">
@@ -79,11 +81,11 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/hero-image1.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              width={348}
+              height={348}
             />
           </div>
         </motion.div>
