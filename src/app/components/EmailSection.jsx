@@ -1,11 +1,14 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+// import GithubIcon from "../../../public/github-icon.svg";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import Swal from "sweetalert2";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const EmailSection = () => {
   const [state, handleSubmit] = useForm("xvoezley");
@@ -32,12 +35,18 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 mb-2 justify-center sm:justify-start sm:mt-8">
           <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <FaGithub className="text-white w-11 h-11 " />
           </Link>
           <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <FaLinkedinIn className="text-white w-11 h-11" />
+          </Link>
+          <Link href="linkedin.com">
+            <FaInstagram className="text-white w-11 h-11" />
+          </Link>
+          <Link href="linkedin.com">
+            <FaFacebook className="text-white w-11 h-11" />
           </Link>
         </div>
       </div>
