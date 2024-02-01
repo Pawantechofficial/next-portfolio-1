@@ -47,8 +47,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base text-left sm:text-lg mb-6 lg:text-xl">
-            Hello there! I'm Pawan, a passionate and innovative Full Stack
-            Developer with a knack for turning ideas into high-quality,
+            Hello there! I am Pawan a passionate and innovative Full Stack
+            Developer with a knack for turning ideas into high-quality
             user-friendly software. I thrive on challenges and love diving into
             the world of coding to create meaningful and impactful solutions.
           </p>
