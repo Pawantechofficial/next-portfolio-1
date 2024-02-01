@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container p-2 sm:p-10 flex items-center justify-evenly sm:justify-between">
         <Link href={"/"}>
           <span className="text-transparent hidden sm:block bg-clip-text bg-gradient-to-r from-secondary-600 to-primary-400">
-            PAWAN RAI
+            PAWAN
           </span>
         </Link>
         <p className="text-slate-200 text-center">
