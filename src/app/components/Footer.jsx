@@ -13,7 +13,7 @@ const Footer = () => {
         </Link>
         <p className="text-slate-200 text-center">
           Copyright &copy; 2024 <br />
-          All rights reserved by <Link href="https://instagram.com">Pawan</Link>
+          All rights reserved by <Link href="https://www.pawantech.com">Pawan</Link>
         </p>
         <div>
           <Link href="/">
