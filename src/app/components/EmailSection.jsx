@@ -1,11 +1,9 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-// import GithubIcon from "../../../public/github-icon.svg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
-import Image from "next/image";
 import Swal from "sweetalert2";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
