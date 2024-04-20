@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import logo from "../../../public/logo.svg";
+// import logo from "../../../public/logo.svg";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaSnapchat } from "react-icons/fa";
@@ -15,39 +15,39 @@ const Header = () => {
   return (
     <nav className="fixed bg-[#18191E] w-full h-16 shadow-xl border-b-1 z-40 border-b-white border-b-2 border-blue-600">
       <div className="text-white flex justify-between items-center z-50 h-full w-full px-4 sm:px-8 2xl:px-16">
-        <Link href="/">
-          <Image
-            src={logo}
-            alt="logo"
-            width={100}
-            height={36}
-            className="cursor-pointer text-white bg-white p-2 rounded"
-          />
+        <Link
+          href={"/"}
+          className="text-2xl md:text-3xl text-white font-semibold"
+        >
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-600 to-primary-400">
+            PAWAN
+          </span>
         </Link>
         <div>
           <ul className="hidden md:flex text-white">
             <Link href="/">
-              <li className="ml-10 uppercase text-base lg:text-xl hover:text-[#C7252F]">
+              <li className="ml-10 uppercase text-base lg:text-xl hover:text-violet-500">
                 Home
               </li>
             </Link>
             <Link href="#about">
-              <li className="ml-10 uppercase text-base lg:text-xl hover:text-[#C7252F]">
+              <li className="ml-10 uppercase text-base lg:text-xl hover:text-violet-500">
                 About
               </li>
             </Link>
             <Link href="#projects">
-              <li className="ml-10 uppercase text-base lg:text-xl hover:text-[#C7252F]">
+              <li className="ml-10 uppercase text-base lg:text-xl hover:text-violet-500">
                 Projects
               </li>
             </Link>
             <Link href="#contact">
-              <li className="ml-10 uppercase text-base lg:text-xl hover:text-[#C7252F]">
+              <li className="ml-10 uppercase text-base lg:text-xl hover:text-violet-500">
                 Contact
               </li>
             </Link>
           </ul>
         </div>
+        <div></div>
         <div
           onClick={handleNav}
           className="md:hidden pl-24 mx-2 text-white cursor-pointer"
@@ -114,15 +114,14 @@ const Header = () => {
             <FaSnapchat size={30} className="cursor-pointer" />
           </Link>
         </div>
-        <Link href="/">
-          <Image
-            src={logo}
-            alt="logo"
-            width={160}
-            height={42}
-            className="cursor-pointer pt-10"
-          />
-        </Link>
+        {/* <Link
+          href={"/"}
+          className="text-2xl md:text-5xl text-white font-semibold"
+        >
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-600 to-primary-400">
+            PAWAN
+          </span>
+        </Link> */}
       </div>
     </nav>
   );
